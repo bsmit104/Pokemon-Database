@@ -31,6 +31,15 @@ CREATE TABLE pokedex.pokemonType (
 -- ('Dragon'), ('Dark'), ('Steel'), ('Fairy');
 
 -- Create the Pokemon table
+-- CREATE TABLE pokedex.allPokemon (
+--     id SERIAL PRIMARY KEY,
+--     pokemonName VARCHAR(50) NOT NULL,
+--     total INTEGER,
+--     hp INTEGER,
+--     attack INTEGER,
+--     defense INTEGER,
+--     speed INTEGER
+-- );
 CREATE TABLE pokedex.allPokemon (
     id SERIAL PRIMARY KEY,
     rowNum INTEGER,
