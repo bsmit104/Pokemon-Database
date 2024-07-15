@@ -16,3 +16,6 @@ python simplifiedTable.py
 psql -U postgres -d pokemon
 pokemon=# \encoding UTF8
 pokemon=# SELECT * FROM test_schema.selected_columns_table;
+
+KAGGLE DATA 
+https://www.kaggle.com/datasets/abcsds/pokemon
